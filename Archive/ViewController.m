@@ -57,7 +57,7 @@
 //        if (rec) {
 //            [str stringByAppendingString:@"/"];
 //        }
-        BOOL rect=[zipFile addFileToZip:zipPath newname:str];
+        BOOL rect=[zipFile addFileToZip:path newname:str];
         NSLog(@"添加%@",rect?@"成功":@"失败");
     }
     [zipFile CloseZipFile2];
